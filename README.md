@@ -20,7 +20,7 @@ $ yarn add stimulus-toggle-util
 ```js
 // ./packs/application.js
 import { Application } from 'stimulus';
-// import Flatpickr
+// import Toggle
 import Toggle from 'stimulus-toggle-util';
 
 import { definitionsFromContext } from 'stimulus/webpack-helpers';
