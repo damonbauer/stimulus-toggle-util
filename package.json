@@ -1,0 +1,53 @@
+{
+  "name": "stimulus-toggle-util",
+  "version": "0.1.0",
+  "repository": "git@github.com:damonbauer/stimulus-toggle-util.git",
+  "bugs": "https://github.com/damonbauer/stimulus-toggle-util/issues",
+  "author": "Damon Bauer <damonbauer@users.noreply.github.com>",
+  "keywords": [
+    "stimulus",
+    "toggle",
+    "switch",
+    "hide",
+    "show",
+    "on/off"
+  ],
+  "description": "An on/off toggle utility for Stimulus",
+  "main": "src/controllers/toggle_controller.js",
+  "files": ["src/controllers/toggle_controller"],
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write src spec",
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "stimulus": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@testing-library/dom": "^7.2.1",
+    "@testing-library/jest-dom": "^5.5.0",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "jest": "25.3.0",
+    "mutationobserver-shim": "0.3.5",
+    "prettier": "^2.0.4",
+    "webpack": "^4.41.4",
+    "webpack-dev-middleware": "^3.7.2"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/spec/utils.js"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/setup-jest.js"
+    ]
+  },
+  "resolutions": {
+    "minimist": "^1.2.3",
+    "kind-of": "^6.0.3"
+  }
+}

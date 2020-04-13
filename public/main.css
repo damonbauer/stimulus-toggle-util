@@ -1,0 +1,7 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+}
+
+.is-hidden {
+  display: none;
+}

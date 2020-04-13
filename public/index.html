@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="bundle.js" async></script>
+  </head>
+  <body>
+    <main data-controller="toggle">
+      <button data-action="toggle#toggle" data-toggle-target="sidebar-1">
+        Toggle Sidebar 1
+      </button>
+      <button
+        data-action="toggle#toggle"
+        data-toggle-target="sidebar-1,sidebar-2"
+      >
+        Toggle Sidebar 1 & 2
+      </button>
+      <hr />
+      <aside class="is-hidden" data-toggle-name="sidebar-1">
+        <p>Here's "Sidebar 1".</p>
+      </aside>
+      <aside class="is-hidden" data-toggle-name="sidebar-2">
+        <p>Here's "Sidebar 2".</p>
+      </aside>
+    </main>
+  </body>
+</html>
