@@ -1,6 +1,6 @@
 {
   "name": "stimulus-toggle-util",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "git@github.com:damonbauer/stimulus-toggle-util.git",
   "bugs": "https://github.com/damonbauer/stimulus-toggle-util/issues",
   "author": "Damon Bauer <damonbauer@users.noreply.github.com>",
@@ -14,7 +14,9 @@
   ],
   "description": "An on/off toggle utility for Stimulus",
   "main": "src/controllers/toggle_controller.js",
-  "files": ["src/controllers/toggle_controller"],
+  "files": [
+    "src/controllers/toggle_controller"
+  ],
   "license": "MIT",
   "scripts": {
     "prettier": "prettier --write src spec",
