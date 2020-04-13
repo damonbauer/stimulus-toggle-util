@@ -2,6 +2,8 @@
 
 An on/off toggle utility for [Stimulus](https://stimulusjs.org/).
 
+[View a demo.](https://codesandbox.io/s/stimulus-toggle-demo-qelx8)
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -110,7 +112,7 @@ application.register('toggle', Toggle);
 
 Option | Type | Required | Default | Description
 --- | --- | :---: | --- | ---
-`data-hidden-class` | `String` | 🚫 | `is-hidden` | The CSS class to toggle on/off
+`data-hidden-class` | `String` | 🚫 | `is-hidden` | The CSS class to toggle on/off. It's up to you to apply styles to the to this class to hide/show the element.
 
 ### License
 
