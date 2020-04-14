@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/dt/stimulus-toggle-util) ![GitHub file size in bytes](https://img.shields.io/github/size/damonbauer/stimulus-toggle-util/src/controllers/toggle_controller.js)
+
 # stimulus-toggle-util
 
 An on/off toggle utility for [Stimulus](https://stimulusjs.org/).
